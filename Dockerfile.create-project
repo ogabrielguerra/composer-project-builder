@@ -1,0 +1,6 @@
+FROM composer:2
+
+WORKDIR /tmp
+
+# Default command: override from script
+CMD ["composer", "create-project", "--no-interaction"]

@@ -1,4 +1,4 @@
-# PHP Project Creator via Docker
+# PHP Composer Project Builder
 
 This project provides a clean, isolated way to create PHP applications (e.g. Slim, Laravel) using Composer **inside Docker**, without installing PHP or Composer on your host machine.
 

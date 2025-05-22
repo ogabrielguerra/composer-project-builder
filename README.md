@@ -31,11 +31,3 @@ chmod +x create-project.sh
 ```
 ./create-project.sh slim/slim-skeleton my-app
 ```
-
-### 3. Run the App
-```
-docker run --rm -it -p 8080:8080 \
-  -v "app/my-app":/var/www/html \
-  php:8.2-cli \
-  php -S 0.0.0.0:8080 -t /var/www/html/public
-``` 
